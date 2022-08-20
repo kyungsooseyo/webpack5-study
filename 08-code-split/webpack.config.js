@@ -27,7 +27,11 @@ module.exports = {
   //   shared: 'lodash'
   // },
   //- 3.通过下面的optimization中的splitChunks来实现共享模块的功能
-  entry: {
+  // entry: {
+  //   index: './src/index.js',
+  //   another: './src/another-module.js',
+  // },
+  entry:{
     index: './src/index.js',
     another: './src/another-module.js',
   },
